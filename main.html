@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style_main.css?v=1.28">
+    <title>Главная</title>
+</head>
+<body>
+
+<header>
+	<center>
+		<h1>Генератор всякой фигни</h1>
+	</center>
+</header>
+
+<form method="post" class="Profile_buttons">
+    <input type="submit" name="SignUp" value="Регистрация" formaction="reg.html">
+    <input type="submit" name="SignIn" value="Вход" formaction="auth.html">
+</form>
+
+<button id="Settings" onClick="output();">
+    <img src="button.svg">
+</button >
+
+<center>
+    Привет, гость, на этом сайте вы можете найти много интереных для нас (разработчиков сайта) вещей. <br>
+    Например, вы можете опробовать редактор блок-схем и конвертер их в паскаль <br>
+    о для начала работы с этим инструментом вы должны войти или зарегистрироваться. <br>
+    Для гостей не доступен функционал сайта.
+</center>
+
+<object width="25%" height="85%" class="Menu" hidden="hidden" id="Menu">
+    <center><button>Редактор блок-схем</button></center>
+    <center><button>Редактор блок-схем</button></center>
+    <center><button>Редактор блок-схем</button></center>
+</object>
+
+<script src="js/settings_button.js"></script>
+
+</body>
+</html>
