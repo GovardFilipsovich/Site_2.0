@@ -1,4 +1,4 @@
-# Site_2.0
+# Site for creating flowcharts
 Hello.
 This site is a my little try to help people who many work with flowcharts. If you don't need it - the door is there
 Привет.
