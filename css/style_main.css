@@ -36,14 +36,14 @@ html, body, .container{
   color: #ffffff;
   cursor: pointer;
 }
-.Settings {
+#Settings {
   display: inline-block;
   border: 0px;
   position: absolute;
   left:1%;
   top:8%;
 }
-.Settings button {
+#Settings button {
   text-align: center;
   border: 1px solid #000;
   *border: 0px;
